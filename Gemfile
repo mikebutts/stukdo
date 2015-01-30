@@ -19,6 +19,8 @@ gem "font-awesome-rails"
 
 gem 'simple_form'
 
+gem 'devise'
+
 
 # Use jQuery as the JavaScript library
 gem 'jquery-rails', '~> 4.0.0.beta2'
