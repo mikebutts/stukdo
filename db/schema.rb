@@ -15,10 +15,10 @@ ActiveRecord::Schema.define(version: 20150131024049) do
 
   create_table "tasks", force: true do |t|
     t.text     "content"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",                   null: false
+    t.datetime "updated_at",                   null: false
     t.integer  "user_id"
-    t.string   "state"
+    t.string   "state",      default: "to_do"
   end
 
   create_table "users", force: true do |t|
