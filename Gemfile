@@ -21,6 +21,8 @@ gem 'simple_form'
 
 gem 'devise'
 
+gem "auto_html"
+
 
 # Use jQuery as the JavaScript library
 gem 'jquery-rails', '~> 4.0.0.beta2'
