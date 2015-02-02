@@ -49,39 +49,12 @@ nav {
 .btn:hover{
   color: #fff;
 }
-
-
-ul#navigation {
-    position: fixed;
-    margin: 0px;
-    padding: 0px;
-    top: 0px;
-    right: 200px;
-    list-style: none;
-    z-index:999999;
-}
-ul#navigation li {
-    display:inline;
-    float:left;
-    width:100px;
-    margin-left:1px;
-}
-ul#navigation li a {
-    display: block;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px #fff;
-    float: left;
-    width: 100px;
-    height: 35px;
-    color: #603d05;
-    background: transparent image-url('item.png') no-repeat bottom right;
-    text-decoration:none;
-    text-align: center;
-    padding-top: 120px;
-    margin-top: -40px;
-    cursor: pointer;
-    z-index: 1;
+.navbar-default .navbar-brand{
+  font-size: 1.3em;
 }
 
 
-
+ .navbar-default .navbar-brand ,.navbar-default .navbar-nav > li > a {
+   color: #333; /*Change active text color here*/
+    text-shadow: 0px 1px 0px rgba(255,255,255,.5);
+    }
