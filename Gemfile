@@ -31,6 +31,7 @@ gem 'devise'
 
 gem "auto_html"
 
+gem 'google-webfonts-rails', '~> 0.0.4'
 
 # Use jQuery as the JavaScript library
 gem 'jquery-rails', '~> 4.0.0.beta2'
